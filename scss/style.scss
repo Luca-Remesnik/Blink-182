@@ -1,6 +1,10 @@
 
 
 
+// IMPORTS | Carpeta "Components"
+
+@import "components/logo" ;
+
 
 //IMPORTS | Carpeta "Base"
 
@@ -11,4 +15,13 @@
 
 //IMPORTS | Carpeta "Layout"
 
-@import "layout/navbar"
+@import "layout/navbar";
+
+@import "layout/hover-nav";
+
+
+
+
+//IMPORTS | Carpeta "Utilities"
+
+@import "utilities/variables";
