@@ -1,0 +1,18 @@
+footer {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+    padding: 50px 0;
+    div {
+        ul {
+            
+            li {
+                list-style: none;
+                a{
+                    margin: 10px;
+                }
+            }
+        }
+    }
+}

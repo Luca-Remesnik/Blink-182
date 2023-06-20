@@ -1,6 +1,6 @@
 nav div a .Logo {
-  width: 70px;
-  height: 70px;
+  width: 75px;
+  height: 75px;
 }
 
 * {
@@ -9,25 +9,25 @@ nav div a .Logo {
 }
 
 nav {
-  width: 80%;
-  margin: 0 auto;
-  background: #fff;
+  margin-bottom: 40px;
   padding: 50px 0;
   border-bottom: 1.5px solid #aaa;
 }
 nav div ul {
   list-style: none;
   text-align: center;
+  font-weight: 600;
 }
 nav div ul li {
   display: inline-block;
+  font-size: large;
 }
 nav div ul li a {
   display: block;
   padding: 15px;
   color: #aaa;
-  font-weight: 800;
   margin: 0 10px;
+  font-family: "Rockit";
 }
 nav div ul li a,
 nav div ul li a:after,
@@ -66,6 +66,42 @@ nav.shift ul li a:hover:after {
   opacity: 1;
   visibility: visible;
   height: 100%;
+}
+
+section div div .parrafos {
+  font-family: "Rockit";
+  font-style: italic;
+  font-weight: 500;
+  font-size: 18px;
+  margin: 30px 0px;
+}
+section div div .img-one {
+  margin: 30px 0px 0px 0px;
+  box-shadow: 4px 4px 4px black;
+}
+section div div .sub-img {
+  text-align: right;
+  color: gray;
+}
+
+section div div .h1-item {
+  margin: 30px 0px;
+  text-align: center;
+  text-decoration: underline;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+footer div ul li {
+  list-style: none;
+}
+footer div ul li a {
+  margin: 10px;
 }
 
 /*# sourceMappingURL=style.css.map */
